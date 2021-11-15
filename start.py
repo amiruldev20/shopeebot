@@ -24,6 +24,22 @@ print(INFO, "Mengambil informasi user...", end='\r')
 cookie = open("cookie.txt", 'r')
 user = User.login(cookie.read())
 cookie.close()
+
+logo = ("""\x1b[1;92m ___ ___ ___ __  __ ___ _   _ __  __
+\x1b[1;92m| _ \ _ \ __|  \/  |_ _| | | |  \/  |
+\x1b[1;96m|  _/   / _|| |\/| || || |_| | |\/| |
+\x1b[1;96m|_| |_|_\___|_|  |_|___|\___/|_|  |_|
+\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m——————————————————————————————
+\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m au : Amirul Dev
+\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m fb : fb.com/amiruldev.id
+\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m gh : github.com/amiruldev20
+\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m——————————————————————————————
+\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m ini adalah bot otomatis checkout
+\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m untuk shopee flash sale.
+\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m buat kalian yang ngincer sesuatu
+\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m tapi kalah cepat :v
+\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m——————————————————————————————
+""")
 print(INFO, "Welcome", Fore.GREEN, user.name, ' ' * 10)
 print()
  
